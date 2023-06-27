@@ -50,7 +50,7 @@ form p label {font-weight:normal !important;}
 	<h2>{$AP_TITLE}</h2>
 </div>
 <form method="post" action="" class="properties" id="configContent" ENCTYPE="multipart/form-data">
-{if $TEMPLATES}
+{if isset($TEMPLATES)}
   <p>
     <strong>{'Load a page model'|@translate}</strong>
     <br>
